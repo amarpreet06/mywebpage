@@ -18,9 +18,16 @@
       line-height: 1.5;
     }
   </style>
+  <script>
+    function Password()
+      {
+        document.GetElementById('pass').innerHTML = "123";
+      }
+  </script>
 </head>
 <body>
   <h1>Welcome to My Web Page</h1>
-  <p>This is a sample web page served by NGINX.</p>
+  <p id="pass">This is a sample web page served by NGINX.</p>
+  <button onclick="Password()"></button>
 </body>
 </html>
